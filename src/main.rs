@@ -71,7 +71,7 @@ fn main() {
     let mut fs = fragment::FragmentShader::default();
     let mut ls = debug::DebugLineShader::default();
 
-    let texture = load_image_file(std::path::Path::new("assets/icon.png")).unwrap();
+    let texture = load_image_file(std::path::Path::new("assets/icon.jpeg")).unwrap();
     fs.mesh_texture = texture;
 
     //Setting up vertices
